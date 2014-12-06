@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "LangTime",
+  "description": "Quickly and easily add cards to your LangTime account.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://code.jquery.com/",
+    "http://maxcdn.bootstrapcdn.com/",
+    "http://cdn.firebase.com/",
+    "http://langtime.firebaseio.com/",
+    "https://langtime.firebaseio.com/"
+  ],
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html"
+  }
+}
